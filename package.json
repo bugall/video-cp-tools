@@ -1,0 +1,27 @@
+{
+  "name": "video-cp-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugall/video-cp-tools.git"
+  },
+  "author": "bugall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugall/video-cp-tools/issues"
+  },
+  "homepage": "https://github.com/bugall/video-cp-tools#readme",
+  "devDependencies": {
+    "ts-loader": "^2.2.2",
+    "webpack": "^3.2.0"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "typescript": "^2.4.1"
+  }
+}
