@@ -1,19 +1,48 @@
 .main-wrap {
-  height: 100%;
-}
-.video-editor-wrap {
-  height: 80%;
-}
-.workplace-wrap {
-  height: 20%;
-}
-.workplace-content {
-  height: 100%;
-  background: #fff;
-}
-.video-wrap {
   width: 100%;
   height: 100%;
+}
+
+.content-top-wrap {
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  background: black;
+}
+.left-content-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.content-top-workspace {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.video-player-wrap {
+  width: 90%;
+  height: 90%;
   position: absolute;
   left: 0;
+  margin: 2% 5%;
+}
+.right-content-wrap {
+  background: #469a9a;
+  height: 100%;
+  position: absolute;
+  width: 20%;
+  right: 0px;
+  top: 0px;
+}
+.content-bottom-wrap {
+  height: 20%;
+  min-height: 20%;
+  background: #fd3;
+}
+.content-bottom-wrap ul {
+  margin: 0px;
+  padding: 0px;
+}
+.content-bottom-wrap ul li {
+  list-style-type:none;
 }

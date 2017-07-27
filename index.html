@@ -24,31 +24,36 @@
     </style>
 </head>
 <body>
-  <div class="row main-wrap">
-    <div class="row video-editor-wrap">
-      <div class="col-md-8" style="height:100%">
-        <video class="video-wrap" controls="" autoplay="" name="media">
-          <source width="320" height="240" src="http://7xr5j6.com1.z0.glb.clouddn.com/hunantv0129.mp4" type="video/mp4">
-        </video>
-        <div style="margin: auto;width: 100%; height: 100%;" class="egret-player"
-            data-entry-class="Main"
-            data-orientation="auto"
-            data-scale-mode="showAll"
-            data-frame-rate="30"
-            data-content-width="640"
-            data-content-height="1136"
-            data-show-paint-rect="false"
-            data-multi-fingered="2"
-            data-show-fps="false" data-show-log="false"
-            data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+  <div class="main-wrap">
+    <div class="content-top-wrap">
+      <div class="left-content-wrap">
+        <div class="content-top-workspace">
+          <video class="video-player-wrap" controls="" autoplay="" name="media">
+            <source width="320" height="240" src="http://7xr5j6.com1.z0.glb.clouddn.com/hunantv0129.mp4" type="video/mp4">
+          </video>
+          <div style="margin: auto;width: 100%; height: 100%;" class="egret-player"
+              data-entry-class="Main"
+              data-orientation="auto"
+              data-scale-mode="showAll"
+              data-frame-rate="30"
+              data-content-width="640"
+              data-content-height="1136"
+              data-show-paint-rect="false"
+              data-multi-fingered="2"
+              data-show-fps="false" data-show-log="false"
+              data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+          </div>
         </div>
+      </div>
+      <div class="right-content-wrap">
       </div>
     </div>
 
-    <div class="row workplace-wrap">
-      <div class="col-md-12 workplace-content">
-        工作区
+    <div class="content-bottom-wrap">
+      <div class="tag-group-wrap">
+        <ul><li>Tag-One</li></ul>
       </div>
+      <div class="tag-detail-wrap"></div>
     </div>
   </div>
 <script>
